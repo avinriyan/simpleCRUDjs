@@ -21,6 +21,7 @@ function tambah() {
     var input = document.querySelector("input[name=jurusan]");
     data.push(input.value);
     tampil();
+    input.value = "";
 }
 
 function edit(id) {
